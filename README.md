@@ -1,8 +1,7 @@
-[index.html](https://github.com/user-attachments/files/33057854/index.html)
 Konten dibuat oleh pengguna dan belum diverifikasi.
 
 
-215
+220
 Pelajari tentang artifacts
 <!DOCTYPE html>
 <html lang="id">
@@ -349,4 +348,268 @@ const QUIZ = [
 {n:84,q:"Jika seorang developer ingin membuat website yang responsif dan dapat diakses di berbagai perangkat, teknologi mana yang paling relevan digunakan?",o:{A:"HTML dengan inline style tanpa framework apapun",B:"CSS Grid dan Flexbox untuk layout fleksibel, atau menggunakan framework seperti Bootstrap",C:"JavaScript vanila untuk mengubah ukuran elemen secara manual",D:"Database relasional untuk menyesuaikan tampilan konten",E:"Server-side rendering dengan PHP untuk setiap perangkat yang berbeda"},a:"B",e:"CSS Grid/Flexbox (atau framework seperti Bootstrap) adalah teknologi standar untuk membangun layout responsif lintas perangkat."},
 {n:85,q:"Apa perbedaan utama antara website statis dan website dinamis?",o:{A:"Website statis lebih cepat, website dinamis lebih lambat tanpa alasan teknis",B:"Website statis menampilkan konten yang sama untuk semua pengguna, website dinamis menghasilkan konten berdasarkan permintaan dan data dari database",C:"Website statis memerlukan server, website dinamis tidak memerlukan server",D:"Website dinamis hanya dapat diakses oleh admin, website statis dapat diakses siapa saja",E:"Website statis menggunakan HTML, website dinamis tidak menggunakan HTML sama sekali"},a:"B",e:"Website statis = konten tetap/sama untuk semua orang; website dinamis = konten berubah sesuai permintaan/data dari database."},
 {n:86,q:"Seorang pengguna menerima pesan bahwa sertifikat SSL pada website yang akan diakses tidak valid. Apa yang menjadi masalah utama?",o:{A:"Koneksi internet pengguna terlalu lambat untuk membuka website",B:"Website belum terdaftar di database search engine",C:"Sertifikat SSL/TLS website tidak valid atau expired, sehingga koneksi HTTPS tidak dapat dipercaya dan data pengguna berisiko",D:"Nama domain website tidak terdaftar secara resmi di registrar terpercaya",E:"Browser pengguna tidak mendukung protokol HTTP/2"},a:"C",e:"Pesan sertifikat tidak valid berarti sertifikat SSL/TLS bermasalah (expired/tidak valid), sehingga koneksi aman (HTTPS) tidak dapat dijamin."},
-{n:87,q:"Dalam proses pengembangan website, apa fungsi utama dari version control system seperti Git?",o:{A:"Mengompresi ukuran file website agar loading lebih cepat",B:"Mencatat dan mengelola perubahan kode, memungkinkan kolaborasi tim, dan memudahkan rollback ke versi sebelumnya jika ada kesalahan",C:"Menghubungkan website dengan database secara otomatis",D:"Mengoptimalkan performa query database untuk kecepatan akses data",E:"Mengenkripsi semua file kode sumber agar tidak dapat diakses orang lain"},a:"B",e:"Git berfungsi mencatat r
+{n:87,q:"Dalam proses pengembangan website, apa fungsi utama dari version control system seperti Git?",o:{A:"Mengompresi ukuran file website agar loading lebih cepat",B:"Mencatat dan mengelola perubahan kode, memungkinkan kolaborasi tim, dan memudahkan rollback ke versi sebelumnya jika ada kesalahan",C:"Menghubungkan website dengan database secara otomatis",D:"Mengoptimalkan performa query database untuk kecepatan akses data",E:"Mengenkripsi semua file kode sumber agar tidak dapat diakses orang lain"},a:"B",e:"Git berfungsi mencatat riwayat perubahan kode, mendukung kolaborasi tim, dan memungkinkan rollback ke versi sebelumnya."},
+{n:88,q:"Apa yang dimaksud dengan bandwidth dalam konteks pengelolaan website?",o:{A:"Kecepatan prosesor server dalam memproses data",B:"Jumlah data maksimal yang dapat ditransfer antara server dan client dalam periode waktu tertentu",C:"Kapasitas penyimpanan data di server web",D:"Kecepatan akses database website",E:"Batas jumlah pengguna yang dapat mengakses website secara bersamaan"},a:"B",e:"Bandwidth adalah jumlah data maksimal yang dapat ditransfer antara server dan client dalam periode waktu tertentu."},
+{n:89,q:"Dalam pengelolaan website, apa fungsi utama dari file robots.txt?",o:{A:"Mengenkripsi semua data pengguna yang masuk ke server",B:"Mengatur pesan error ketika halaman tidak ditemukan",C:"Menginstruksikan search engine crawler mengenai halaman mana yang boleh atau tidak boleh diindeks",D:"Mengontrol akses pengguna berdasarkan lokasi geografis",E:"Membatasi ukuran file yang dapat diupload ke website"},a:"C",e:"robots.txt memberi instruksi kepada crawler mesin pencari tentang halaman mana yang boleh/tidak boleh diindeks."},
+{n:90,q:"Manakah dari berikut ini yang bukan merupakan fungsi dari Content Delivery Network (CDN)?",o:{A:"Mendistribusikan konten ke server di berbagai lokasi geografis untuk mempercepat loading",B:"Melindungi website dari serangan DDoS",C:"Memperbaiki syntax error pada kode website secara otomatis",D:"Mengurangi latensi dengan menyajikan konten dari server terdekat dengan pengguna",E:"Meningkatkan skalabilitas website untuk menangani traffic tinggi"},a:"C",e:"CDN tidak memperbaiki kode/syntax error — itu bukan fungsinya; CDN fokus pada distribusi konten, kecepatan, dan proteksi traffic."},
+{n:91,q:"Apa perbedaan utama antara HTTP dan HTTPS dalam aspek keamanan transmisi data?",o:{A:"HTTP lebih cepat karena tidak menggunakan enkripsi, sedangkan HTTPS lebih lambat",B:"HTTP menggunakan enkripsi SSL/TLS, sedangkan HTTPS tidak memerlukan enkripsi",C:"HTTPS menggunakan enkripsi SSL/TLS untuk melindungi data, sementara HTTP mengirimkan data tanpa enkripsi",D:"Keduanya menggunakan enkripsi yang sama, hanya berbeda pada port yang digunakan",E:"HTTP lebih aman karena tersertifikasi, sedangkan HTTPS tidak memerlukan sertifikat"},a:"C",e:"HTTPS mengenkripsi data dengan SSL/TLS, sedangkan HTTP mengirim data tanpa enkripsi (lebih rentan disadap)."},
+{n:92,q:"Dalam mengelola website, apa yang dimaksud dengan caching dan apa manfaatnya?",o:{A:"Proses menghapus data lama dari server secara berkala",B:"Menyimpan salinan data atau halaman di lokasi terdekat untuk akses lebih cepat dan mengurangi beban server",C:"Proses backup otomatis data website ke cloud storage",D:"Membatasi jumlah koneksi simultan dari pengguna",E:"Mengenkripsi semua komunikasi antara client dan server"},a:"B",e:"Caching menyimpan salinan data agar akses berikutnya lebih cepat dan beban server berkurang."},
+{n:93,q:"Apa yang dimaksud dengan metadata website dan mengapa penting untuk SEO?",o:{A:"Data tentang jumlah pengguna yang mengakses website setiap hari",B:"Informasi deskriptif tentang halaman web seperti title, description, dan keywords yang membantu search engine memahami konten",C:"Informasi tentang kecepatan loading website",D:"Data tentang browser dan perangkat yang digunakan pengunjung",E:"Informasi lokasi server tempat website di-hosting"},a:"B",e:"Metadata (title, description, keywords) membantu search engine memahami dan mengindeks konten halaman dengan tepat."},
+{n:94,q:"Dalam mengelola website, apa fungsi utama dari file .htaccess?",o:{A:"Mengonfigurasi pengaturan server Apache, termasuk rewrite rules dan kontrol akses",B:"Menyimpan informasi login pengguna website",C:"Mengenkripsi semua file di server secara otomatis",D:"Membuat backup otomatis dari database website",E:"Mengatur tema dan desain tampilan website"},a:"A",e:".htaccess adalah file konfigurasi server Apache, digunakan untuk rewrite rules dan kontrol akses."},
+{n:95,q:"Apa yang dimaksud dengan Hosting dalam konteks pengelolaan website?",o:{A:"Layanan penyewaan ruang penyimpanan data di server untuk menyimpan file-file website agar dapat diakses melalui internet",B:"Proses pembelian nama domain untuk website agar mudah diingat oleh pengunjung",C:"Software yang digunakan untuk mendesain tampilan website secara visual",D:"Teknik mengoptimalkan kecepatan loading halaman website menggunakan kompres file",E:"Protokol keamanan yang digunakan untuk mengenkripsi komunikasi antara client dan server"},a:"A",e:"Hosting adalah layanan penyewaan ruang penyimpanan server agar file website dapat diakses melalui internet."},
+{n:96,q:"Dalam pengelolaan website, apa yang dimaksud dengan uptime dan mengapa penting untuk bisnis online?",o:{A:"Waktu yang diperlukan untuk mengunggah file ke server hosting website",B:"Persentase waktu server website beroperasi dengan normal dan dapat diakses oleh pengunjung",C:"Durasi maksimal yang diizinkan untuk melakukan backup data website secara berkala",D:"Kecepatan internet yang dibutuhkan untuk membuka website dengan lancar tanpa buffering",E:"Jumlah pengunjung yang dapat mengakses website secara bersamaan tanpa lag"},a:"B",e:"Uptime adalah persentase waktu server beroperasi normal dan dapat diakses pengunjung — penting karena downtime berarti kehilangan bisnis/pengunjung."},
+{n:97,q:"Apa yang dimaksud dengan User Experience (UX) dalam desain dan pengelolaan website?",o:{A:"Kemampuan website untuk beradaptasi dengan berbagai ukuran layar perangkat pengguna",B:"Pengalaman keseluruhan pengguna saat berinteraksi dengan website, termasuk kemudahan navigasi, kecepatan, dan kepuasan",C:"Fitur analitik yang melacak perilaku pengunjung dalam menggunakan website secara detail",D:"Strategi pemasaran digital yang digunakan untuk menarik pengunjung baru ke website",E:"Proses mengoptimalkan konten website agar mudah ditemukan di mesin pencari"},a:"B",e:"UX adalah pengalaman keseluruhan pengguna saat berinteraksi dengan website: navigasi, kecepatan, dan kepuasan."},
+{n:98,q:"Apa peran dari footer dalam struktur dan pengelolaan website yang baik?",o:{A:"Menampilkan animasi menarik untuk meningkatkan interaktivitas halaman website",B:"Bagian bawah halaman yang berisi informasi penting seperti copyright, contact, sitemap, dan link footer lainnya",C:"Elemen navigasi utama untuk memudahkan pengguna berpindah antar halaman website",D:"Area untuk menampilkan iklan dan konten promosi dari mitra bisnis",E:"Section yang khusus dirancang untuk menampilkan testimonial dan review dari pelanggan"},a:"B",e:"Footer adalah bagian bawah halaman berisi informasi pelengkap seperti copyright, kontak, dan sitemap."},
+{n:99,q:"Dalam pengelolaan website, apa yang dimaksud dengan Web Analytics dan informasi apa yang dapat diperoleh?",o:{A:"Proses pemantauan keamanan server untuk mencegah serangan cyber dan hacking pada website",B:"Pengumpulan dan analisis data tentang perilaku pengunjung website seperti traffic, durasi kunjungan, bounce rate, dan sumber pengunjung",C:"Layanan pencadangan data website secara berkala untuk mencegah kehilangan data penting",D:"Teknik optimasi database untuk mempercepat query dan response time server website",E:"Strategi pembaruan konten website secara rutin untuk meningkatkan relevansi di mesin pencari"},a:"B",e:"Web Analytics mengumpulkan & menganalisis data perilaku pengunjung: traffic, durasi kunjungan, bounce rate, sumber trafik, dsb."},
+{n:100,q:"Apa yang dimaksud dengan Responsive Design dalam konteks pengembangan website modern?",o:{A:"Desain website yang dapat menyesuaikan layout dan konten secara otomatis sesuai ukuran layar perangkat yang digunakan pengunjung",B:"Kecepatan website dalam merespons perintah dari server ketika pengguna melakukan interaksi",C:"Kemampuan website untuk mendeteksi lokasi geografis pengunjung dan menampilkan konten yang relevan",D:"Fitur website yang memungkinkan pengguna untuk memberikan feedback dan komentar secara real-time",E:"Sistem keamanan website yang responsif terhadap ancaman keamanan dan dapat memblokir akses berbahaya"},a:"A",e:"Responsive Design berarti layout dan konten website menyesuaikan otomatis dengan ukuran layar perangkat pengunjung."}
+,
+{n:101,q:"Apa yang dimaksud dengan World Wide Web (WWW) dalam konteks internet?",o:{A:"Sebuah sistem jaringan komputer yang menghubungkan seluruh perangkat di dunia",B:"Sistem untuk berbagi dokumen dan informasi melalui internet menggunakan protokol HTTP/HTTPS",C:"Sebuah aplikasi perangkat lunak untuk mengelola basis data besar",D:"Protokol komunikasi yang digunakan hanya untuk mengirim email",E:"Sebuah mesin pencari yang mengindeks semua situs web di internet"},a:"B",e:"WWW adalah sistem berbagi dokumen/informasi melalui internet menggunakan protokol HTTP/HTTPS, berbeda dari internet itu sendiri (infrastruktur jaringan)."},
+{n:102,q:"Dalam struktur URL https://www.example.com:8080/path/page.html?id=123, bagian manakah yang merupakan port?",o:{A:"https",B:"www.example.com",C:"8080",D:"/path/page.html",E:"id=123"},a:"C",e:"Angka setelah tanda titik dua (:) pada URL adalah nomor port — di sini 8080."},
+{n:103,q:"Manakah dari pernyataan berikut yang BENAR tentang perbedaan website statis dan website dinamis?",o:{A:"Website statis diperbarui secara real-time, sedangkan website dinamis memerlukan pembaruan manual",B:"Website statis menampilkan konten yang sama untuk semua pengunjung, website dinamis dapat menampilkan konten berbeda berdasarkan input pengguna",C:"Website dinamis tidak memerlukan server untuk berfungsi, sementara website statis memerlukan server khusus",D:"Website statis lebih aman karena tidak terhubung dengan basis data, namun lebih mahal untuk dikembangkan",E:"Website dinamis hanya dapat diakses melalui protokol FTP, sedangkan website statis menggunakan HTTP"},a:"B",e:"Sama seperti soal 85: statis = konten sama untuk semua orang; dinamis = konten berubah berdasarkan input pengguna/data."},
+{n:104,q:"Apa fungsi utama dari Domain Name System (DNS) dalam infrastruktur website?",o:{A:"Mengenkripsi data pengguna saat bertransaksi di website",B:"Mengubah alamat IP numerik menjadi nama domain yang mudah diingat",C:"Menyimpan semua file dan database website di server",D:"Mengontrol akses pengguna ke halaman-halaman tertentu di website",E:"Mempercepat kecepatan loading website dengan cache data"},a:"B",e:"DNS berfungsi menerjemahkan (dua arah, tapi umumnya digambarkan) antara nama domain dan alamat IP agar mudah diakses manusia."},
+{n:105,q:"Protokol mana yang digunakan untuk mentransfer file dengan aman ke server web, dan protokol manakah yang digunakan untuk browsing konten web?",o:{A:"SFTP untuk transfer file, FTP untuk browsing",B:"FTP untuk transfer file, HTTP untuk browsing",C:"SFTP untuk transfer file, HTTPS untuk browsing",D:"HTTP untuk transfer file, HTTPS untuk browsing",E:"HTTPS untuk transfer file, DNS untuk browsing"},a:"C",e:"SFTP (secure FTP) digunakan untuk transfer file yang AMAN, sedangkan HTTPS digunakan untuk browsing konten web yang aman."},
+{n:106,q:"Dalam mengelola website, hosting dapat diartikan sebagai?",o:{A:"Proses mendaftarkan nama domain ke registrar",B:"Layanan menyimpan file website dan membuat website dapat diakses 24/7 melalui internet",C:"Aplikasi software untuk membuat dan mengedit konten website",D:"Protokol komunikasi antara browser dan server web",E:"Proses mengoptimalkan website agar tampil di halaman pertama mesin pencari"},a:"B",e:"Hosting adalah layanan menyimpan file website sekaligus membuatnya dapat diakses 24/7 melalui internet."},
+{n:107,q:"Apa keuntungan utama menggunakan HTTPS dibandingkan HTTP pada sebuah website?",o:{A:"HTTPS lebih cepat dalam mentransfer data karena menggunakan kompresi otomatis",B:"HTTPS mengenkripsi data komunikasi antara browser dan server, sehingga lebih aman dari ancaman keamanan",C:"HTTPS memerlukan biaya hosting yang lebih murah dibanding HTTP",D:"HTTPS tidak memerlukan sertifikat SSL, sehingga lebih mudah diimplementasikan",E:"HTTPS hanya dapat digunakan untuk website e-commerce, bukan untuk website informasi"},a:"B",e:"Keuntungan utama HTTPS adalah enkripsi data komunikasi, melindungi data dari penyadapan/manipulasi."},
+{n:108,q:"Perusahaan ingin membangun website e-commerce dengan fitur real-time inventory dan transaksi pembayaran online. Jenis website apakah yang paling sesuai?",o:{A:"Website statis karena lebih cepat dan mudah diakses",B:"Website dinamis karena dapat memproses data dan berinteraksi dengan database",C:"Website responsif karena dapat diakses dari berbagai perangkat",D:"Website portal karena menyediakan banyak layanan dalam satu tempat",E:"Website blog karena dapat diupdate secara berkala dengan informasi terbaru"},a:"B",e:"Fitur real-time inventory dan transaksi online memerlukan pemrosesan data & interaksi database — ini ciri website dinamis."},
+{n:109,q:"Apa yang akan terjadi jika layanan DNS mengalami gangguan?",o:{A:"Website akan menampilkan konten dengan kecepatan lebih lambat",B:"User tidak dapat mengakses website karena browser tidak bisa menemukan alamat IP dari domain",C:"Website akan secara otomatis beralih ke protokol HTTP",D:"Server web akan menolak semua permintaan koneksi dari user",E:"Konten website akan dienkripsi dan tidak bisa ditampilkan"},a:"B",e:"Tanpa DNS berfungsi, browser tidak bisa menerjemahkan domain menjadi IP address, sehingga website tidak dapat diakses sama sekali."},
+{n:110,q:"Manakah strategi berikut yang PALING efektif untuk mengoptimalkan performa website dengan mengurangi waktu loading?",o:{A:"Menambah jumlah halaman website agar konten lebih banyak",B:"Menggunakan Content Delivery Network (CDN) untuk mendistribusikan konten dari server yang lebih dekat dengan user",C:"Mengubah warna desain website menjadi lebih cerah",D:"Mengganti hosting dengan paket yang lebih mahal",E:"Menambahkan lebih banyak plugin dan script pihak ketiga"},a:"B",e:"CDN mendistribusikan konten dari server terdekat dengan pengguna, secara langsung mengurangi latensi dan waktu loading."},
+{n:111,q:"Apa risiko utama jika sebuah website tidak melakukan backup secara berkala?",o:{A:"Website akan mengalami penurunan traffic pengunjung",B:"Data website dapat hilang selamanya jika terjadi kerusakan server atau serangan cyber",C:"Biaya hosting akan meningkat secara otomatis setiap bulannya",D:"Semua user akan kehilangan akses ke akun mereka tanpa bisa dipulihkan",E:"Desain website akan berubah menjadi tidak valid menurut standar HTML"},a:"B",e:"Tanpa backup berkala, data website berisiko hilang permanen jika terjadi kerusakan server atau serangan siber."},
+{n:112,q:"Apa yang ditunjukkan oleh padlock icon dan 'HTTPS' pada address bar browser?",o:{A:"Website telah dipercaya oleh semua antivirus di dunia",B:"Koneksi antara browser dan server dienkripsi dan data pengguna terlindungi dari penyadapan",C:"Website tidak pernah akan mengalami serangan malware atau phishing",D:"Server website berlokasi di negara dengan standar keamanan tertinggi",E:"Semua file yang diunduh dari website dijamin 100% aman dan tidak berisi virus"},a:"B",e:"Padlock + HTTPS menandakan koneksi terenkripsi (SSL/TLS), melindungi data dari penyadapan — bukan jaminan bebas malware sepenuhnya."},
+{n:113,q:"Manakah pernyataan yang PALING TEPAT mendeskripsikan perbedaan frontend dan backend?",o:{A:"Frontend adalah bagian server dan backend adalah bagian yang dilihat user di browser",B:"Frontend adalah tampilan dan interaksi user di browser, sedangkan backend mengelola logika bisnis, database, dan pemrosesan data di server",C:"Frontend menggunakan bahasa pemrograman Python dan backend menggunakan HTML",D:"Frontend lebih penting daripada backend untuk menentukan kecepatan website",E:"Frontend dan backend tidak perlu berkomunikasi satu sama lain dalam operasional website"},a:"B",e:"Frontend = apa yang dilihat/diinteraksikan user di browser; backend = logika bisnis, database, dan pemrosesan data di sisi server."},
+{n:114,q:"Apa manfaat utama dari penerapan responsive design pada sebuah website?",o:{A:"Mengurangi biaya hosting dan server website",B:"Website dapat menyesuaikan tampilan dan layout secara otomatis sesuai dengan ukuran layar perangkat yang mengaksesnya",C:"Meningkatkan kecepatan loading website hingga 10 kali lipat",D:"Melindungi website dari serangan hacker dan malware",E:"Memastikan semua user menggunakan browser yang sama untuk pengalaman optimal"},a:"B",e:"Sama seperti soal 100: manfaat utamanya adalah tampilan menyesuaikan otomatis dengan ukuran layar berbagai perangkat."},
+{n:115,q:"Dalam pengelolaan website, Content Delivery Network (CDN) berfungsi untuk?",o:{A:"Mengenkripsi semua data yang ditransmisikan antara client dan server",B:"Mendistribusikan konten website ke berbagai server di lokasi geografis berbeda untuk mempercepat akses",C:"Mengelola database website dan menyimpan informasi pengguna",D:"Mengubah kode HTML menjadi format yang dapat dipahami oleh browser",E:"Memverifikasi identitas pemilik website melalui sertifikat digital"},a:"B",e:"CDN mendistribusikan konten ke server di berbagai lokasi geografis agar akses lebih cepat bagi pengguna di lokasi mana pun."},
+{n:116,q:"Administrator website ingin mengetahui jumlah pengunjung harian, halaman paling banyak dikunjungi, dan asal traffic. Tool apa yang paling tepat digunakan?",o:{A:"Firewall dan Access Control List",B:"Web Analytics seperti Google Analytics",C:"SSH dan Remote Desktop Protocol",D:"File Transfer Protocol dan SFTP",E:"Load Balancer dan Monitoring Server"},a:"B",e:"Web Analytics (misal Google Analytics) adalah tool tepat untuk melacak jumlah pengunjung, halaman populer, dan sumber traffic."},
+{n:117,q:"Ketika sebuah website tiba-tiba tidak dapat diakses meskipun server masih aktif, masalah mana yang paling mungkin terjadi?",o:{A:"Sertifikat SSL/TLS website telah kadaluarsa",B:"Kapasitas RAM server tidak mencukupi",C:"Domain website belum didaftarkan di registrar domain",D:"Konfigurasi DNS pointer tidak mengarah ke IP address server yang benar",E:"Konten website menggunakan format file yang tidak kompatibel dengan browser"},a:"D",e:"Jika server aktif tapi website tak bisa diakses, kemungkinan besar DNS pointer (A record) salah arah sehingga permintaan tidak sampai ke server yang benar."},
+{n:118,q:"Manakah pernyataan yang paling akurat tentang fungsi API (Application Programming Interface) dalam konteks website?",o:{A:"API adalah protokol khusus yang menggantikan HTTP untuk komunikasi lebih cepat",B:"API memungkinkan aplikasi frontend dan backend berkomunikasi serta bertukar data dengan cara yang terdefinisi",C:"API adalah teknologi enkripsi yang melindungi semua data dalam transit",D:"API adalah server web yang khusus digunakan hanya untuk menyimpan gambar dan video",E:"API adalah standar penamaan file yang digunakan dalam penamaan resource website"},a:"B",e:"API adalah antarmuka yang memungkinkan dua sistem (misal frontend & backend) berkomunikasi dan bertukar data secara terstruktur."},
+{n:119,q:"Developer ingin mengoptimalkan ukuran file gambar tanpa mengurangi kualitas visual secara signifikan. Teknik mana yang paling sesuai?",o:{A:"Menghapus semua gambar dari website dan menggantinya dengan teks deskriptif",B:"Meningkatkan kapasitas RAM server untuk mempercepat pemrosesan gambar",C:"Menggunakan format file gambar yang lebih modern dengan kompresi lebih baik, seperti WebP atau AVIF",D:"Membuat salinan website di server yang berbeda untuk membagi beban kerja",E:"Mengubah protokol dari HTTP menjadi HTTPS untuk mengakselerasi transfer data"},a:"C",e:"Format gambar modern seperti WebP/AVIF memberikan kompresi lebih baik tanpa banyak mengorbankan kualitas visual."},
+{n:120,q:"Apa tujuan utama dari implementasi security headers seperti Content-Security-Policy (CSP) dan X-Frame-Options?",o:{A:"Mempercepat waktu loading halaman website secara keseluruhan",B:"Melindungi website dari serangan keamanan tertentu seperti XSS, clickjacking, dan injeksi konten berbahaya",C:"Mengurangi jumlah request HTTP yang dikirim oleh browser ke server",D:"Memaksa browser untuk selalu menggunakan HTTPS dalam setiap koneksi ke website",E:"Mengatur izin akses pengguna terhadap fitur-fitur tertentu dalam website"},a:"B",e:"Security headers seperti CSP dan X-Frame-Options dirancang khusus untuk melindungi website dari serangan seperti XSS dan clickjacking."}
+,
+{n:121,q:"Apa yang dimaksud dengan website statis?",o:{A:"Website yang kontennya dapat berubah secara real-time tanpa perlu reload halaman",B:"Website yang kontennya tidak berubah dan ditampilkan sama untuk semua pengunjung",C:"Website yang hanya dapat diakses oleh admin dan pengguna terdaftar",D:"Website yang menggunakan basis data untuk menyimpan semua kontennya",E:"Website yang dirancang khusus untuk perangkat mobile saja"},a:"B",e:"Website statis menampilkan konten tetap yang sama untuk setiap pengunjung, tanpa personalisasi berbasis database."},
+{n:122,q:"Protokol mana yang umumnya digunakan untuk mentransfer file ke web server saat melakukan upload ke hosting?",o:{A:"HTTP",B:"SMTP",C:"FTP",D:"DNS",E:"SSL"},a:"C",e:"FTP (File Transfer Protocol) adalah protokol standar untuk mengunggah/mentransfer file ke web server hosting."},
+{n:123,q:"Dalam pengelolaan website, apa fungsi utama dari Content Management System (CMS)?",o:{A:"Mengatur keamanan server dan mencegah serangan malware",B:"Menyediakan antarmuka untuk mengelola konten website tanpa perlu coding",C:"Menyimpan semua data pribadi pengunjung website",D:"Mengoptimalkan kecepatan loading website secara otomatis",E:"Menerjemahkan konten website ke berbagai bahasa"},a:"B",e:"CMS (seperti WordPress) memberikan antarmuka untuk mengelola konten website tanpa perlu menulis kode dari nol."},
+{n:124,q:"Apa perbedaan utama antara domain dan hosting?",o:{A:"Domain adalah nama website, hosting adalah tempat penyimpanan file website",B:"Domain adalah tempat penyimpanan file, hosting adalah nama website",C:"Domain dan hosting adalah hal yang sama, hanya istilah berbeda",D:"Domain digunakan untuk email, hosting untuk file website",E:"Domain adalah layanan gratis, hosting harus dibayar"},a:"A",e:"Domain adalah alamat/nama website yang mudah diingat; hosting adalah tempat penyimpanan file-file website di server."},
+{n:125,q:"Tool apa yang paling tepat digunakan untuk mengedit dan membuat struktur HTML/CSS sebuah website secara lokal?",o:{A:"Text Editor atau Code Editor seperti Visual Studio Code",B:"Web Browser seperti Chrome atau Firefox",C:"CMS seperti WordPress tanpa menggunakan hosting",D:"Database management tool seperti PhpMyAdmin",E:"FTP Client seperti FileZilla saja tanpa tools lain"},a:"A",e:"Code Editor seperti VS Code adalah tool standar untuk menulis dan mengedit struktur HTML/CSS secara lokal."},
+{n:126,q:"Mengapa HTTPS lebih aman daripada HTTP untuk mengelola website?",o:{A:"HTTPS memiliki loading yang lebih cepat dibanding HTTP",B:"HTTPS mengenkripsi data yang dikirim antara browser dan server, sedangkan HTTP tidak",C:"HTTPS menggunakan lebih banyak server dibanding HTTP",D:"HTTPS tidak memerlukan sertifikat SSL seperti HTTP",E:"HTTPS hanya digunakan untuk website e-commerce, HTTP untuk website lain"},a:"B",e:"HTTPS mengenkripsi komunikasi data browser-server dengan SSL/TLS, sementara HTTP mengirim data secara terbuka/tidak terenkripsi."},
+{n:127,q:"Dalam mengelola website, apa yang dimaksud dengan SEO (Search Engine Optimization)?",o:{A:"Teknik untuk meningkatkan ranking website di hasil pencarian search engine",B:"Proses menghapus semua link eksternal dari website",C:"Sistem keamanan untuk melindungi database website dari hacker",D:"Fitur yang memungkinkan website diakses offline tanpa internet",E:"Tool untuk mengompres semua file website agar lebih ringan"},a:"A",e:"SEO adalah teknik/strategi untuk meningkatkan peringkat website di hasil pencarian mesin pencari."},
+{n:128,q:"Apa yang dimaksud dengan bandwidth dalam konteks pengelolaan website?",o:{A:"Jumlah ruang penyimpanan data pada server web",B:"Kecepatan transfer data antara server dan client dalam periode waktu tertentu",C:"Jenis protokol yang digunakan untuk mengenkripsi data website",D:"Nama domain alternatif yang digunakan untuk website backup",E:"Jumlah pengunjung yang dapat mengakses website secara bersamaan"},a:"B",e:"Bandwidth mengacu pada kecepatan/kapasitas transfer data antara server dan client dalam periode waktu tertentu (sama seperti soal 88)."},
+{n:129,q:"Dalam pengelolaan website, apa fungsi utama dari DNS (Domain Name System)?",o:{A:"Mengenkripsi komunikasi antara browser dan server",B:"Menerjemahkan nama domain menjadi alamat IP server",C:"Menyimpan file dan database website di server",D:"Mengontrol akses pengguna ke halaman website tertentu",E:"Mengoptimalkan kecepatan loading halaman website"},a:"B",e:"Fungsi utama DNS adalah menerjemahkan nama domain menjadi alamat IP server (sama seperti soal 83 & 104)."},
+{n:130,q:"Apa yang dimaksud dengan caching dalam konteks pengelolaan dan performa website?",o:{A:"Proses backup data website secara berkala ke server cadangan",B:"Menyimpan salinan data atau halaman web di memori untuk akses lebih cepat",C:"Proses kompresi file untuk mengurangi ukuran transfer data",D:"Sistem keamanan yang melindungi website dari serangan malware",E:"Metode untuk mengalihkan traffic website ke server lain saat overload"},a:"B",e:"Caching menyimpan salinan data/halaman di memori agar akses berikutnya lebih cepat, sama seperti definisi di soal 92."},
+{n:131,q:"Apa fungsi utama dari file robots.txt dalam pengelolaan website?",o:{A:"Mengamankan website dari serangan brute force",B:"Mengatur izin akses web crawler atau bot untuk mengindex halaman website",C:"Mengoptimalkan gambar dan file media di website",D:"Membuat backup otomatis dari semua file website",E:"Mengenkripsi komunikasi antara client dan server web"},a:"B",e:"robots.txt mengatur izin akses crawler/bot mesin pencari terhadap halaman website (sama seperti soal 89)."},
+{n:132,q:"Dalam pengelolaan website, apa yang dimaksud dengan uptime?",o:{A:"Waktu yang diperlukan untuk mengupload file ke server",B:"Persentase waktu server website aktif dan dapat diakses pengunjung",C:"Jumlah pembaruan konten yang dilakukan dalam sebulan",D:"Kecepatan internet yang dibutuhkan untuk mengakses website",E:"Waktu tunggu respons dari server saat pertama kali diakses"},a:"B",e:"Uptime adalah persentase waktu server aktif dan dapat diakses, sama seperti definisi soal 96."},
+{n:133,q:"Apa perbedaan utama antara web server dan application server dalam pengelolaan website?",o:{A:"Web server hanya melayani file statis, sementara application server menjalankan kode dinamis",B:"Web server lebih cepat, application server lebih aman",C:"Web server untuk website kecil, application server untuk website besar",D:"Web server menggunakan HTTP, application server menggunakan protokol khusus",E:"Web server terletak di client, application server terletak di cloud"},a:"A",e:"Web server umumnya melayani konten statis (HTML/gambar), sementara application server menjalankan logika/kode dinamis (memproses data)."},
+{n:134,q:"Apa yang dimaksud dengan redirect dan kapan biasanya digunakan?",o:{A:"Mengarahkan pengguna dari satu URL ke URL lain, digunakan saat mengganti alamat website atau menghapus halaman lama",B:"Proses mengubah kode HTML menjadi tampilan visual di browser",C:"Metode untuk menyembunyikan alamat IP server dari pengunjung",D:"Sistem pencegahan akses otomatis ke halaman yang sedang dimaintenance",E:"Teknik untuk membagi traffic website ke beberapa server berbeda"},a:"A",e:"Redirect mengarahkan pengguna dari satu URL ke URL lain, umumnya dipakai saat alamat berubah atau halaman lama dihapus."},
+{n:135,q:"Apa yang dimaksud dengan responsive design dalam pengembangan website modern?",o:{A:"Desain website yang hanya dapat diakses melalui perangkat desktop dengan resolusi tinggi",B:"Desain website yang menyesuaikan tampilannya secara otomatis sesuai ukuran layar dan perangkat yang digunakan",C:"Desain website yang memberikan respons feedback kepada setiap klik pengguna dengan animasi",D:"Desain website yang menggunakan banyak warna-warna responsif dan kontras tinggi",E:"Desain website yang hanya mengoptimalkan kecepatan loading di perangkat mobile"},a:"B",e:"Responsive design menyesuaikan tampilan secara otomatis sesuai ukuran layar/perangkat, sama seperti definisi soal 100 & 114."},
+{n:136,q:"Dalam pengelolaan website, apa yang dimaksud dengan sitemap?",o:{A:"Peta geografis yang menunjukkan lokasi server website Anda berada",B:"File atau halaman yang berisi daftar lengkap URL dan struktur hirarki website untuk membantu mesin pencari dan pengunjung navigasi",C:"Desain visual layout website yang menampilkan semua warna dan font yang digunakan",D:"Program yang memetakan setiap klik pengguna untuk analisis perilaku browsing",E:"Sertifikat keamanan yang memvalidasi kepemilikan website di mesin pencari"},a:"B",e:"Sitemap adalah daftar lengkap URL dan struktur hirarki website yang membantu mesin pencari (dan pengunjung) melakukan navigasi."},
+{n:137,q:"Apa fungsi utama dari web analytics dalam pengelolaan website?",o:{A:"Menganalisis kode HTML dan CSS untuk menemukan error dalam struktur halaman",B:"Mengumpulkan, mengukur, dan menganalisis data tentang perilaku pengunjung website untuk optimasi performa dan strategi",C:"Mengelola dan mengorganisir semua file gambar yang digunakan di website",D:"Menjamin keamanan data pelanggan melalui enkripsi tingkat tinggi",E:"Membuat laporan statistik tentang jumlah server yang menampilkan website Anda"},a:"B",e:"Web analytics mengumpulkan dan menganalisis data perilaku pengunjung untuk mendukung optimasi performa dan strategi bisnis."},
+{n:138,q:"Dalam pengelolaan website, apa yang dimaksud dengan metadata?",o:{A:"Data yang menyimpan semua informasi pribadi pengunjung website secara otomatis",B:"Informasi deskriptif tentang halaman web (seperti title, description, keywords) yang membantu mesin pencari memahami konten",C:"Struktur database yang digunakan untuk menyimpan semua konten website",D:"Jenis file yang hanya dapat dibuka oleh administrator website",E:"Sistem notifikasi otomatis ketika ada perubahan pada halaman website"},a:"B",e:"Metadata adalah informasi deskriptif (title, description, keywords) yang membantu mesin pencari memahami konten halaman, sama seperti soal 93."},
+{n:139,q:"Apa perbedaan utama antara staging environment dan production environment dalam pengelolaan website?",o:{A:"Staging adalah backup server, sedangkan production adalah server utama yang aktif melayani pengunjung",B:"Staging digunakan untuk testing dan pengembangan sebelum diluncurkan, sementara production adalah environment live yang diakses pengunjung nyata",C:"Staging lebih cepat daripada production dalam memproses data pengunjung",D:"Staging menggunakan HTTPS sementara production menggunakan HTTP untuk efisiensi",E:"Production adalah tempat menyimpan backup data, sedangkan staging adalah tempat menjalankan website asli"},a:"B",e:"Staging = lingkungan uji coba sebelum rilis; production = lingkungan live yang diakses pengunjung sesungguhnya."},
+{n:140,q:"Apa yang dimaksud dengan 404 error dan apa penyebabnya?",o:{A:"Error yang terjadi ketika server website tidak memiliki cukup kapasitas penyimpanan",B:"Error yang muncul ketika pengunjung mencoba mengakses halaman atau resource yang tidak ditemukan atau telah dihapus dari server",C:"Error keamanan yang mengindikasikan akses tidak sah ke file-file website",D:"Error yang terjadi ketika database website mengalami kegagalan koneksi",E:"Error yang ditampilkan ketika browser tidak kompatibel dengan teknologi website"},a:"B",e:"404 Not Found muncul ketika halaman/resource yang diminta tidak ditemukan atau telah dihapus dari server."}
+];
+
+const STORAGE_KEY = 'wp-hosting-quiz-progress-v1';
+let state = { answers: {}, current: 1 };
+
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(raw){
+      const parsed = JSON.parse(raw);
+      if(parsed && typeof parsed === 'object' && parsed.answers){
+        state = parsed;
+      }
+    }
+  }catch(e){ /* ignore, start fresh */ }
+}
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }catch(e){ /* ignore */ }
+}
+
+const quizArea = document.getElementById('quizArea');
+const summaryArea = document.getElementById('summaryArea');
+const jumpWrap = document.getElementById('jumpWrap');
+const jumpGrid = document.getElementById('jumpGrid');
+const barFill = document.getElementById('barFill');
+const scorePill = document.getElementById('scorePill');
+
+function answeredCount(){ return Object.keys(state.answers).length; }
+function correctCount(){
+  let c = 0;
+  for(const k in state.answers){
+    const q = QUIZ.find(x=>x.n===Number(k));
+    if(q && state.answers[k] === q.a) c++;
+  }
+  return c;
+}
+
+function updateProgress(){
+  const total = QUIZ.length;
+  const ans = answeredCount();
+  barFill.style.width = (ans/total*100).toFixed(1) + '%';
+  scorePill.textContent = ans + ' / ' + total + ' terjawab · ' + correctCount() + ' benar';
+}
+
+function renderJumpGrid(){
+  jumpGrid.innerHTML = '';
+  QUIZ.forEach(q=>{
+    const b = document.createElement('button');
+    b.className = 'jbtn';
+    b.textContent = q.n;
+    const ans = state.answers[q.n];
+    if(q.n === state.current) b.classList.add('current');
+    if(ans){
+      b.classList.add(ans === q.a ? 'ok' : 'no');
+    }
+    b.addEventListener('click', ()=>{ state.current = q.n; saveState(); renderAll(); window.scrollTo({top:0, behavior:'smooth'}); });
+    jumpGrid.appendChild(b);
+  });
+}
+
+function renderQuestion(){
+  const q = QUIZ.find(x=>x.n===state.current);
+  if(!q){ quizArea.innerHTML=''; return; }
+  const chosen = state.answers[q.n];
+  const card = document.createElement('div');
+  card.className = 'card';
+
+  const num = document.createElement('div');
+  num.className = 'qnum';
+  num.textContent = 'Soal ' + q.n + ' dari ' + QUIZ.length;
+  card.appendChild(num);
+
+  const qt = document.createElement('p');
+  qt.className = 'qtext';
+  qt.textContent = q.q;
+  card.appendChild(qt);
+
+  const opts = document.createElement('div');
+  opts.className = 'options';
+  ['A','B','C','D','E'].forEach(letter=>{
+    const btn = document.createElement('button');
+    btn.className = 'opt';
+    btn.innerHTML = '<span class="letter">'+letter+'</span><span>'+q.o[letter]+'</span>';
+    if(chosen){
+      btn.disabled = true;
+      if(letter === q.a) btn.classList.add('correct');
+      else if(letter === chosen) btn.classList.add('wrong');
+    }
+    btn.addEventListener('click', ()=>{
+      if(state.answers[q.n]) return;
+      state.answers[q.n] = letter;
+      saveState();
+      renderAll();
+    });
+    opts.appendChild(btn);
+  });
+  card.appendChild(opts);
+
+  const fb = document.createElement('div');
+  fb.className = 'feedback' + (chosen ? ' show ' + (chosen===q.a ? 'ok':'no') : '');
+  if(chosen){
+    fb.innerHTML = '<b>' + (chosen===q.a ? '✓ Benar!' : '✗ Kurang tepat — jawaban benar: ' + q.a) + '</b><span class="expl">' + q.e + '</span>';
+  }
+  card.appendChild(fb);
+
+  const nav = document.createElement('div');
+  nav.className = 'navrow';
+  const prevBtn = document.createElement('button');
+  prevBtn.className = 'navbtn';
+  prevBtn.textContent = '← Sebelumnya';
+  prevBtn.disabled = q.n <= 1;
+  prevBtn.addEventListener('click', ()=>{ state.current = Math.max(1, q.n-1); saveState(); renderAll(); window.scrollTo({top:0,behavior:'smooth'}); });
+  nav.appendChild(prevBtn);
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'navbtn primary';
+  nextBtn.textContent = q.n >= QUIZ.length ? 'Lihat hasil →' : 'Berikutnya →';
+  nextBtn.addEventListener('click', ()=>{
+    if(q.n >= QUIZ.length){
+      state.current = QUIZ.length + 1;
+    } else {
+      state.current = q.n + 1;
+    }
+    saveState(); renderAll(); window.scrollTo({top:0,behavior:'smooth'});
+  });
+  nav.appendChild(nextBtn);
+  card.appendChild(nav);
+
+  quizArea.innerHTML = '';
+  quizArea.appendChild(card);
+}
+
+function renderSummary(){
+  const total = QUIZ.length;
+  const correct = correctCount();
+  const ans = answeredCount();
+  const pct = total ? Math.round(correct/total*100) : 0;
+
+  const box = document.createElement('div');
+  box.className = 'summary';
+  box.innerHTML =
+    '<h2>Hasil Latihan</h2>' +
+    '<div class="bigscore">' + correct + ' / ' + total + '</div>' +
+    '<p>' + pct + '% benar · ' + ans + ' dari ' + total + ' soal sudah dijawab.</p>';
+
+  const wrong = QUIZ.filter(q => state.answers[q.n] && state.answers[q.n] !== q.a);
+  if(wrong.length){
+    const h3 = document.createElement('p');
+    h3.style.fontWeight='600'; h3.style.color='var(--ink)'; h3.style.marginTop='4px';
+    h3.textContent = 'Soal yang perlu dipelajari ulang (' + wrong.length + '):';
+    box.appendChild(h3);
+    wrong.forEach(q=>{
+      const item = document.createElement('div');
+      item.className = 'review-item';
+      item.innerHTML = '<div class="rq">Soal ' + q.n + '. ' + q.q + '</div>' +
+        '<div class="ra">Jawabanmu: ' + state.answers[q.n] + ' — Jawaban benar: ' + q.a + '. ' + q.e + '</div>';
+      box.appendChild(item);
+    });
+  } else if(ans === total){
+    const p = document.createElement('p');
+    p.textContent = 'Mantap, semua soal yang dijawab benar!';
+    box.appendChild(p);
+  }
+
+  const resetBtn = document.createElement('button');
+  resetBtn.className = 'resetbtn';
+  resetBtn.textContent = 'Ulangi dari awal';
+  resetBtn.addEventListener('click', ()=>{
+    if(confirm('Reset semua jawaban dan mulai ulang?')){
+      state = { answers: {}, current: 1 };
+      saveState(); renderAll(); window.scrollTo({top:0,behavior:'smooth'});
+    }
+  });
+  box.appendChild(resetBtn);
+
+  const backBtn = document.createElement('button');
+  backBtn.className = 'navbtn';
+  backBtn.style.width = '100%';
+  backBtn.style.marginTop = '10px';
+  backBtn.textContent = 'Kembali ke soal terakhir';
+  backBtn.addEventListener('click', ()=>{
+    state.current = Math.min(QUIZ.length, total);
+    saveState(); renderAll(); window.scrollTo({top:0,behavior:'smooth'});
+  });
+  box.appendChild(backBtn);
+
+  summaryArea.innerHTML = '';
+  summaryArea.appendChild(box);
+}
+
+function renderAll(){
+  updateProgress();
+  renderJumpGrid();
+  if(state.current > QUIZ.length){
+    quizArea.innerHTML = '';
+    jumpWrap.style.display = 'block';
+    renderSummary();
+  } else {
+    summaryArea.innerHTML = '';
+    jumpWrap.style.display = 'block';
+    renderQuestion();
+  }
+}
+
+loadState();
+renderAll();
+</script>
+</body>
+</html>
